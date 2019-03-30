@@ -7,9 +7,9 @@ Pipeline:
 
 We would like to use the data to predict the next period time and also the correlation between sypmtoms with period. Questions we would expect to answer by our analysis including:
 
-1). What's the upcoming period?
-2). What's the correlation between several sypmtoms with period.
-3). Whether there is any symptom's impact on period?
+1). When's the upcoming period?   
+2). What's the correlation between several sypmtoms with period?   
+3). Whether there is any symptom's impact on period?   
 
 The data was quite messy. We removed users with records less than 3. For users with only 1 or 2 incontinuous records, we will predict the upcoming period according to the last period and the period length provided by users. 
 
